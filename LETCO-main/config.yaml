@@ -1,0 +1,20 @@
+backend:
+  database:
+    driver: "postgresql"
+    host: "localhost"
+    port: 5432
+    database_name: "my_database"
+    username: "admin"
+    password: "password123"
+  server:
+    port: 8000
+    host: "localhost"
+    debug: true
+
+frontend:
+  api_url: "http://localhost:8000/api"
+  environment: "development"
+
+mobile:
+  api_url: "http://localhost:8000/api"
+  environment: "development"
