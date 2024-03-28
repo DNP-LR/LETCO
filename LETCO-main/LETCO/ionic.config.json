@@ -1,0 +1,7 @@
+{
+  "name": "LETCO",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
